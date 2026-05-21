@@ -1,0 +1,36 @@
+h1{
+    color: #3b0a75;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+
+h2{
+    color: #5b21b6;
+    border-bottom: 2px solid #5b21b6;
+}
+
+
+p,ul,ol {
+
+    font-size: 18px;
+}
+
+body{
+    background-color: #f4f4f4;
+    color: #222;
+    line-height: 1.6;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #5b21b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
