@@ -143,6 +143,7 @@ button:hover {
 
 .hero-right {
     width: 45%;
+    border-radius: 10%;
     background-color: #8b7355 ;
     position: relative;
     display: flex;
