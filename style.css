@@ -21,7 +21,7 @@ h1{
 	width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #faf8f5;
 }
 h2{
     color: #8aa9cf;
@@ -39,8 +39,7 @@ body{
     color: #222;
     line-height: 1.6;
 	margin: 0;
-    font-family: Arial, sans-serif;
-}
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
 a {
     color: #e74c3c;
@@ -88,7 +87,7 @@ a:hover {
 }
 
 button{
-    background-color:  #ef3f32;
+    background-color:  #8b7355 ;
     color: white;
     border: none;
     padding: 18px 50px;
@@ -115,7 +114,7 @@ button{
 
 
 button:hover {
-    background-color: green;
+    background-color: #8b7355 ;
     transform: scale(1.1);
 }
 
@@ -143,7 +142,7 @@ button:hover {
 
 .hero-right {
     width: 45%;
-    background-color: #8aa9cf;
+    background-color: #8b7355 ;
     position: relative;
     display: flex;
     align-items: flex-end;
@@ -166,7 +165,7 @@ button:hover {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #e8dfd6 ;
     border-radius: 60px;
     padding: 25px 40px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.0.08);
@@ -248,6 +247,45 @@ button:hover {
     line-height: 1.5;
 }
 
-.footer-class {
-    background-color: brown;
+footer{
+    background-color: #e8dfd6 ;
+    text-align: center;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 15px;
+    color: #9b7b55;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 0%;
+}
+
+.footer-icons a {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #faf8f5; /* soft background close to page */
+  border: 1px solid #eee3d8;
+  border-radius: 8px;
+
+  color: #3b302b; /* icon color */
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  background-color: #9b7b55; /* your brown button colour */
+  color: white;
+  transform: scale(1.05);
 }
