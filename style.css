@@ -36,6 +36,7 @@ p,ul,ol {
 
 body{
     background-color: #f4f4f4;
+    background-image: url(assets/bg\ image.jpeg);
     color: #222;
     line-height: 1.6;
 	margin: 0;
